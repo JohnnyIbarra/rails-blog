@@ -1,0 +1,12 @@
+<h1>Form to edit item</h1>
+
+<%= form_for @page do |f| %>
+	<%= f.text :title %>
+	<%= f.text_field :title %>
+
+	<%= f.label :body %>
+	<%= f.text_area :body %>
+
+	<%= f.submit %>
+
+<% end %>
